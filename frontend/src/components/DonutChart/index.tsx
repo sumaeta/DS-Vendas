@@ -32,7 +32,6 @@ const DonutChart = () => {
     }
 
     return (
-
         <Chart
             options={{ ...options, labels: chartData.labels }}
             series={chartData.series}
